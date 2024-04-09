@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>LA TV Shows | Home</title>
+    <title>Charlie's Netflix Catalog | Home</title>
     <meta name="description" content="A Catalog of Shows Set in Los Angeles">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
@@ -10,7 +10,8 @@
 
 <body>
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <h1 class="title">Charlie's TV Shows</h1>
+        <button onclick="search();">Search</button>
     </header>
     <div id="card-container">
         
@@ -21,9 +22,11 @@
             <img src="" alt="TV Show Poster">
             <ul>
                 <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
+                
             </ul>
+            <button onclick="remove();">
+                Remove
+            </button>
         </div>
     </div>
     <div class="footer">
@@ -32,6 +35,17 @@
         </button>
         <button onclick="removeLastCard();">
             Remove A Card!
+        </button>
+        <button onclick="removeSpecfic();">
+            Remove a specfic Card!
+        </button>
+        </button>
+        <button onclick="Add();">
+            Add A Card!
+        </button>
+        </button>
+        <button onclick="sort();">
+            Sort Alphabetically
         </button>
     </div>
 </body>
