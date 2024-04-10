@@ -172,7 +172,7 @@ function remove()
     showCards();
 }
 
-//Removes a card based on the title 
+//Removes a card based on the title requires exact match
 function removeSpecfic()
 {
     target = prompt("Enter the title to remove");
@@ -200,7 +200,7 @@ function removeSpecfic()
 
 }
 
-//Search
+//Search looks for exact string
 function search() {
     searchtarget = prompt("Enter Search target");
     found = false;
