@@ -57,6 +57,13 @@ const movie = new Netflix("The Movies That Made Us","https://static.tvtropes.org
 const orange = new Netflix("Orange Is the New Black","https://akns-images.eonline.com/eol_images/Entire_Site/201869/rs_634x939-180709061638-634-oitnb-s6.ch.070918.jpg?fit=around%7C634:939&output-quality=90&crop=634:939;center,top","A privileged New Yorker ends up in a women's prison when a past crime catches up with her in this Emmy-winning series from the creator of \"Weeds.\"");
 const godzilla = new Netflix("Godzilla Singular Point","https://upload.wikimedia.org/wikipedia/en/1/16/Godzilla_Singular_Point_Key_Visual.jpg?20210224000313","Brought together by a mysterious song, a grad student and an engineer lead the fight against an unimaginable force that may spell doom for the world.");
 const innocent = new Netflix("The Innocent","https://m.media-amazon.com/images/M/MV5BYmExMGI5NDEtZjY1My00MzQ0LWI4MmUtMzdkODgxYjRhNjFmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg","An accidental killing leads a man down a dark hole of intrigue and murder. Just as he finds love and freedom, one phone call brings back the nightmare.");
+const bell = new Netflix("Saved by the Bell","https://m.media-amazon.com/images/M/MV5BNzEzMzM2ODc1Ml5BMl5BanBnXkFtZTcwMTg2MjAzMQ@@._V1_FMjpg_UX1000_.jpg","From middle school to college, best friends Zack, Kelly, Slater, Jessie, Screech and Lisa take on the highs and lows of life together in this hit series.");
+const kim = new Netflix("Kim's Convenience","https://m.media-amazon.com/images/M/MV5BODQxMmI3ZGQtOGRlNy00MzI3LWE3ZmItOWRjM2I2YjQyYzgzXkEyXkFqcGdeQXVyMzI2MzYyNzI@._V1_QL75_UY281_CR19,0,190,281_.jpg","While running a convenience store in Toronto, members of a Korean-Canadian family deal with customers, each other and the evolving world around them.")
+const monkey = new Netflix("The New Legends of Monkey","https://m.media-amazon.com/images/M/MV5BMjc4ODY2NzctOGJlNy00MjA0LTg3NzQtODBmZTgwN2QzMzliXkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_FMjpg_UX1000_.jpg","A valiant girl liberates the Monkey King – a god long trapped in stone – in a quest to find seven sacred scrolls and save the world from evil.")
+const generation = new Netflix("Generation 56k","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKk7sVVHuv8WzQ4ZuOMMAGejEZ0DvRxLiRwiHgJ62SMfrCHu45","A chance encounter leads two 30-somethings to remember 1998, the year their teenage hormones kicked in — and the internet changed their lives forever.");
+const agent = new Netflix("Call My Agent!","https://m.media-amazon.com/images/M/MV5BMzRmYTQ2YzctNTc3YS00ZmQ2LTk3ODEtMjg5NWE1ZDkwMTg1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg","At a top Paris talent firm, agents scramble to keep their star clients happy – and their business afloat – after an unexpected crisis.");
+const locked = new Netflix("Locked Up","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2yYJzO14Ywj2J0oq5Rt-WDIb2sN4-HDNMCHSXppWwag&s","Manipulated into embezzling funds for her boyfriend and sentenced to prison, a naïve young woman must quickly learn to survive in a harsh new world.");
+const evil = new Netflix("Beyond Evil","https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Beyond_Evil_2021.jpg/220px-Beyond_Evil_2021.jpg","As a killing resembling a cold case resurfaces in a small town, the chase for the truth falls on two policemen who each harbor secrets of their own.")
 // Original titles has been turned to a array of objects
 let titles = [
 
@@ -72,6 +79,13 @@ let titles = [
     orange,
     godzilla,
     innocent,
+    bell,
+    kim,
+    monkey,
+    generation,
+    agent,
+    locked,
+    evil,
     
 ];
 
